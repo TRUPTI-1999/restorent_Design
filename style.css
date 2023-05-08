@@ -1,0 +1,328 @@
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.container {
+    height: 60px;
+    width: 100%;
+    /* background-color:yellow; */
+    display: block-inline;
+    margin-left: 10%;
+}
+
+.logo {
+    height: 60px;
+    width: 15%;
+    /* background-color: blue; */
+    font-size: 40px;
+    font-family: Lucida Sans;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    color: aliceblue;
+
+}
+
+.navigation {
+    height: 60px;
+    width: 50%;
+    /* background-color: chartreuse; */
+    display: inline-block;
+    margin-left: 28%;
+}
+
+.nav {
+    list-style: circle;
+    font-size: 0px;
+
+}
+
+.nav-link {
+    height: 60px;
+    width: 25%;
+    /* background-color: brown; */
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+    font-family: Segoe UI;
+    color: aliceblue;
+
+
+}
+
+.banner {
+    height: 550px;
+    width: 100%;
+    /* background: red; */
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    margin-top: -280px;
+
+}
+
+.dishesh {
+    /* height :60px; */
+    width: 100%;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.dish-container {
+    width: 80%;
+    height: 400px;
+    /* background-color:yellow; */
+    margin-left: 10%;
+    font-size: 16px;
+}
+
+.dish {
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    display: inline-block;
+    margin-left: 2.4%;
+    font-size: 30px;
+    font-family: cambria;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(197, 137, 18);
+}
+
+.dish-img {
+    height: 170px;
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.dish-title {
+    font-size: 25px;
+    color: rgb(48, 54, 58);
+    margin-bottom: 0px;
+}
+
+.para {
+    font-size: 10px;
+    color: black;
+}
+
+.dish-btn {
+    font-size: 15px;
+    background-color: aqua;
+}
+
+
+
+
+.about {
+    height: 380px;
+    width: 100%;
+    background-color: white;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-container {
+    height: 350px;
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+    vertical-align: top;
+    background-color:white;
+    overflow: hidden;
+    font-size: 0px;
+}
+
+.about-imges {
+    height: 500px;
+    width: 50%;
+    display: inline-block;
+}
+
+.about-img {
+    /* height: 500px; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-text {
+    height: 400px;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: SEGOE UI;
+    font-size: 16px;
+    color: black;
+}
+
+.about-para {
+    font-size: 16px;
+    font-family: segoe UI;
+    color: black
+}
+
+
+.gallery {
+    height: 550px;
+    width: 100%;
+    background-color:whitesmoke;
+    display: inline-block;
+    margin-left: 10%;
+    padding-top: 2px;
+}
+
+/* .gallery-top{
+        height:250px;
+        width:100%;
+        background-color: blueviolet; */
+
+.gallery-item {
+    /* height:250px; */
+    width: 100%;
+}
+
+.gal-img {
+    /* height :250px; */
+    width: 20%;
+    padding: 2px;
+    box-sizing: border-box;
+    /* margin-left: 10%; */
+    overflow: hidden;
+
+}
+
+
+
+.order {
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.order-container {
+    width: 50%;
+    margin-left: 25%;
+    /* background-color: rgb(181, 181, 26); */
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 500px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.form_element {
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.form_btn {
+    border: none;
+    background-color:#10bccf;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    padding-top: 8px;
+    margin-left: 60px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    padding-right: 70%;
+    border-radius: 30px;
+}
+
+.inputs {
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    padding-right: 74%;
+    box-sizing: border-box;
+    background-color: #d3d1d188;
+}
+
+select {
+    background-color: #d3d1d181;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    padding-right: 74%;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .footer_container{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 0px;
+
+
+  }
+
+  .footer_item{
+    width: 32%;
+    display: inline-block;
+    margin-left: 1%;
+    vertical-align: top;
+    font-size: 16px;
+    font-family: segoe UI;
+    color:white;
+  }
+
+  .footer_title{
+    font-size: 40px;
+    font-weight: 40px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+
+  .footer_para
+  {
+
+    font-size: 17px;
+
+  }
+
+  .addr_title{
+
+    font-size: 25px;
+    margin-bottom: 15px;
+
+  }
+
+  .addr_para{
+    font-size: 17px;
+    margin-bottom: 10px;
+
+  }
+
+  .google_map{
+    height: 200px;
+    width:100%
+  }
